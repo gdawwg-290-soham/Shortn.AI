@@ -12,9 +12,18 @@ const Hero = () => {
               onClick={() =>
                 window.open("https://github.com/gdawwg-290-soham")
               }
-              className="black_btn"
+              className="white_btn"
             >
               GitHub
+            </button>
+            <button
+              type="button"
+              onClick={() =>
+                window.open("https://www.linkedin.com/in/soham-ghosh-6a5202223/")
+              }
+              className="white_btn"
+            >
+              LinkedIn
             </button>
           </nav>
     
